@@ -14,3 +14,11 @@ e.g. {"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}
 
 5. If the date string is invalid the api returns a JSON having the structure
 {"error" : "Invalid Date" }.
+
+## Problem Explanation
+
+* You need to write a microservice that will return a JSON with the date in Unix format and in a human-readable date format. The JSON format is like the example output, “{“unix”:1451001600000, “utc”:“Fri, 25 Dec 2015 00:00:00 GMT”}”.
+
+* The response depends on the URL. If the API endpoint is hit with no additional information, it returns the JSON with the current time.
+
+* If the endpoint is hit with a date in unix format, it should calculate the human readable format, and vice versa.
