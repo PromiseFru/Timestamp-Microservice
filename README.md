@@ -22,3 +22,7 @@ e.g. {"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}
 * The response depends on the URL. If the API endpoint is hit with no additional information, it returns the JSON with the current time.
 
 * If the endpoint is hit with a date in unix format, it should calculate the human readable format, and vice versa.
+
+## Reference docs
+* Regular expressions:
+> https://eloquentjavascript.net/09_regexp.html
